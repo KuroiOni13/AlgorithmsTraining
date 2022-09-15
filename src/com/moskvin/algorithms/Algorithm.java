@@ -8,7 +8,6 @@ public final class Algorithm {
     public static int[] selectionSort(int[] arr) {
         int[] result = arr.clone();
         int n = arr.length;
-
         for (int i = 0; i < n; i++) {
             int smallerIndex = i;
             for (int j = i + 1; j < n; j++) {
@@ -22,6 +21,7 @@ public final class Algorithm {
         }
         return result;
     }
+    //kokvolk
 
     // O(n^2)
     public static int[] insertionSort(int[] arr) {
